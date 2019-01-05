@@ -6,4 +6,5 @@ Credits:
 - Photos adjusts: https://tinyjpg.com/         https://compressjpeg.com/
 - Favicon: https://realfavicongenerator.net/      https://www.freefavicon.com/
 - Tool for creating the Logo: https://hatchful.shopify.com/
+- Icons: the awesome http://fontastic.me/ resources
 
