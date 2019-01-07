@@ -1047,6 +1047,7 @@ section.gallery .item {
   position: relative;
   max-height: 230px;
   overflow: hidden;
+  
 }
 section.gallery .item a {
   background: rgba(127, 180, 1, 0.8);
