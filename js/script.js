@@ -139,7 +139,7 @@ $(document).ready(function () {
     // ---------------------------------------------- //
     // Booking form validation
     // ---------------------------------------------- //
-    $('#booking-form, #booking-form-alternative').validate({
+    $('#booking-form').validate({
         messages: {
             name: 'please enter your name',
             email: 'please enter your email address',
@@ -158,10 +158,6 @@ $(document).ready(function () {
         messages: {
             clientname: 'please enter your name',
             clientemail: 'please enter your email address',
-            clientnumber: 'please enter your phone number',
-            clientpeople: 'please enter how many people',
-            clientdate: 'please enter booking date',
-            clienttime: 'please enter booking time',
             clientrequest: 'please enter your special request'
         }
     });

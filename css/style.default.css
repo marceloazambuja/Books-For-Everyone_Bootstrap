@@ -748,7 +748,7 @@ section.about::before {
   content: '';
   display: block;
   background-position: center center;
-  background: url(../img/dish-d.png) no-repeat;
+  background: url(../img/background/1.png) no-repeat;
   background-size: 100%;
   position: absolute;
   max-width: 300px;
@@ -1122,12 +1122,12 @@ section.booking .form-holder::after {
   max-width: 400px;
   height: 300px;
   display: block;
-  background: url(../img/vegetables.png) no-repeat;
+  background: url(../img/background/3.png) no-repeat;
   background-position: center center;
   background-size: 100%;
   position: absolute;
-  bottom: -100px;
-  right: -10vw;
+  bottom: -150px;
+  right: -15vw;
   z-index: -1;
 }
 section.booking .form-holder .ribbon {
