@@ -58,7 +58,7 @@
                                 <li><a href="#menu">Selections</a></li>
                                 <li><a href="#events">Events</a></li>
                                 <li><a href="#gallery">Gallery</a></li>
-                                <li><a href="#booking">Contact</a></li>
+                                <li><a href="#contact">Contact</a></li>
                                 <li><a href="https://www.linkedin.com/in/marcelo-azambuja-11063a11/">By <span class="text-large"><i class="icon-linkedin-circled"></i></span></a></li>
                             </ul>
                             <a href="#" class="btn navbar-btn btn-unique hidden-sm hidden-xs" id="open-reservation">Message Center</a>
@@ -1146,46 +1146,37 @@
 
 
             <!-- Message Section -->
-            <section id="booking" class="booking">
-                <div class="container text-center">
-                    <header>
-                        <h2>Message Center</h2>
-                        <h3>Whatever book you need, let us know</h3>
-                    </header>
-                    <div class="row">
-                        <div class="form-holder col-md-10 col-md-push-1 text-center">
-                            <div class="ribbon">
-                                <i class="fa fa-star"></i>
-                            </div>
-
-                            <h2>Drop us a line!</h2>
-                            <h3>Keep in touch:</h3>
-
-                            <form id="booking-form" method="get" action="#">
+            <section id="contact" class="contact">
+                    <div id="map"></div>
+                    <div class="container text-center">
+                        <div class="form-holder">
+                            <header>
+                                <h2>Message Center</h2>
+                                <h3>Whatever book you need, let us know</h3>
+                            </header>
+    
+                            <form method="get" action="#" id="contact-form">
                                 <div class="row">
-                                    <div class="col-md-10 col-md-push-1">
-                                        <div class="row">
-                                            <label for="name" class="col-sm-6 unique">Name
-                                                <input name="name" type="text" id="name" required>
-                                            </label>
-                                            <label for="email" class="col-sm-6 unique">Email
-                                                <input name="email" type="email" id="email" required>
-                                            </label>
-                                            <label for="request" class="col-sm-12 unique">Let your message here
-                                                <textarea id="request" name="request" required></textarea>
-                                            </label>
-                                            <div class="col-sm-12">
-                                                <button type="submit" class="btn-unique">Sent</button>
-                                            </div>
-                                        </div>
+                                    <label for="user-name" class="col-sm-6 unique">Name
+                                        <input type="text" name="username" id="user-name" required>
+                                    </label>
+                                    <label for="user-email" class="col-sm-6 unique">Email
+                                        <input type="email" name="useremail" id="user-email" required>
+                                    </label>
+                                    <label for="message" class="col-sm-12 unique">Your Message
+                                        <textarea name="message" id="message" required></textarea>
+                                    </label>
+                                    <div class="col-sm-12">
+                                        <button type="submit" class="btn-unique" id="submit">Send</button>
                                     </div>
                                 </div>
                             </form>
                         </div>
                     </div>
-                </div>
-            </section>
-            <!-- End Booking Section -->
+                </section>
+                <!-- End Booking Section -->
+
+
 
             <!-- Footer -->
             <footer id="mainFooter" class="mainFooter">
@@ -1239,12 +1230,12 @@
                                 <ul class="list-unstyled list-inline">
                                     <li><a href="#">Policy Privacy</a></li>
                                     <li><a href="#">Terms of Use</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="https://www.linkedin.com/in/marcelo-azambuja-11063a11/">Developed by</a></li>
                                 </ul>
                             </div>
 
                             <div class="col-sm-7">
-                                <p>&copy; 2017 Italiano Restaurant. Template By <a href="https://bootstraptemple.com/" target="_blank">BootstrapTemple.com</a></p>
+                                <p>&copy;Template By <a href="https://bootstraptemple.com/" target="_blank">BootstrapTemple.com</a></p>
                                 <!-- Please do not remove the backlink to us unless you have purchased the attribution-free license at https://bootstraptemple.com. It is part of the license conditions. Thanks for understanding :) -->
                             </div>
                         </div>
@@ -1295,7 +1286,7 @@
                         </div>
                     </div>
                 </section>
-            </div><!-- end modal booking form -->
+            </div><!-- end modal Message form -->
         </div>
 
 

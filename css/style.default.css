@@ -2248,9 +2248,7 @@ address {
 .panel-default > .panel-heading + .panel-collapse .panel-body {
   border-top-color: #666666;
 }
-.panel-default > .panel-footer + .panel-collapse .panel-body {
-  /*border-bottom-color: #666666;*/
-}
+
 .panel-primary {
   border-color:     #903646;
 }
