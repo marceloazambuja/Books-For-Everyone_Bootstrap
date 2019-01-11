@@ -3,7 +3,7 @@
 =========================================
 =========================================
 
-Italiano By BootstrapTemple.com
+Italiano By BootstrapTemple.com (with some changes made by Marcelo Azambuja)
 
 =========================================
 ========================================= */
@@ -1050,7 +1050,7 @@ section.gallery .item {
   
 }
 section.gallery .item a {
-  background: rgba(127, 180, 1, 0.8);
+  background: #903646;
   position: absolute;
   display: block;
   height: 100%;
@@ -1356,17 +1356,18 @@ footer .copyrights p a:hover {
   margin-top: 40px;
   font-size: 12px !important;
 }
+
 .reservation-overlay #close {
   width: 40px;
   height: 40px;
-  line-height: 45px;
+  line-height: 90px;
   background:     #903646;
-  color: #fff;
+  color: black;
   position: absolute;
   top: 0;
   left: 0;
   text-align: center;
-  opacity: 1;
+  /*opacity: 1;*/
   font-size: 30px;
   cursor: pointer;
 }
@@ -2180,6 +2181,9 @@ p {
 .text-italic {
   font-style: italic;
 }
+.text-gray-light {
+  color: blue;
+}
 .text-primary {
   color:     #903646;
 }
@@ -2201,7 +2205,7 @@ blockquote {
   padding: 11.5px 23px;
   margin: 0 0 23px;
   font-size: 15px;
-  border-left: 5px solid     #903646;
+  border-left: 5px solid #903646;
 }
 blockquote footer,
 blockquote small,
