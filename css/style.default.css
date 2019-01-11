@@ -1317,7 +1317,7 @@ footer .copyrights p a:hover {
   opacity: 1;
 }
 /* ==========================================
-   RESERVATION POP UP
+   Message POP UP
    ========================================== */
 .reservation-overlay {
   background: rgba(0, 0, 0, 0.8);
@@ -1362,12 +1362,12 @@ footer .copyrights p a:hover {
   height: 40px;
   line-height: 90px;
   background:     #903646;
-  color: black;
+  color:black;
   position: absolute;
   top: 0;
   left: 0;
   text-align: center;
-  /*opacity: 1;*/
+  opacity: 1;
   font-size: 30px;
   cursor: pointer;
 }
