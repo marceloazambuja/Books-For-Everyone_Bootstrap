@@ -1,4 +1,4 @@
-A nice webpage using Bootstrap. I´ve been using as exemple a Book Shop that I named "Books for Everyone". 
+A nice webpage using Bootstrap. I´ve been using as exemple a Book Store that I named "Books for Everyone". 
 
 Credits:
 - The main credits are to https://bootstraptemple.com, from which I downloaded the template.
